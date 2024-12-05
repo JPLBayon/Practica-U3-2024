@@ -21,8 +21,8 @@ public class TestPractica {
 	@DisplayName("Método 1")
 	void test01() {
 		assertTrue(l.equals(Main.m1(s)));
-		assertEquals(0, Main.m2("").size());
-		assertEquals(0, Main.m2("abcdef").size());
+		assertEquals(0, Main.m1("").size());
+		assertEquals(0, Main.m1("abcdef").size());
 	}
 	
 	@Test
